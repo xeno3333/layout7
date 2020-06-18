@@ -1,0 +1,279 @@
+@charset "utf-8";
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+article::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+#side {
+    width: 15%;
+    height: 100%;
+    float: left;
+}
+
+#side nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    width: 22.1%;
+    font-size: 24px;
+}
+
+nav li:hover {
+    color: black;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+
+#side img {
+    padding: 10px 56px 10px 20px;
+    width: 212px;
+
+}
+
+#side .img1 {
+    border-bottom: 1px solid lightgray;
+}
+
+#side .img1:hover {
+    background: lightgray;
+    cursor: pointer;
+}
+
+
+#side p {
+    padding: 10px 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+#side p:hover {
+    background: lightgray;
+    cursor: pointer;
+}
+
+
+#main {
+    width: 85%;
+    height: 900px;
+    float: left;
+}
+
+#main .header {
+    /* width: 100%; */
+    /* height: 250px; */
+    background-color: teal;
+    margin-top: 0;
+    text-align: center;
+    padding: 50px 0;
+
+}
+
+#main .header h1 {
+    /* margin: 0; */
+    color: white;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+#main .content1 {
+    width: 100%;
+    height: 530px;
+    float: left;
+    margin-top: 15px;
+    background-color: #f1f1f1;
+}
+
+#main .content1 h1 {
+    font-size: 56px;
+    font-weight: normal;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+#main .content1 .p1 {
+    font-size: 24px;
+    font-weight: normal;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#main .content1 .button1 {
+    background-color: teal;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-left: 19px;
+    font-size: 18px;
+}
+
+#main .content1 .button2 {
+    background-color: teal;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+}
+
+#main .content1 .button1:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+#main .content1 .button2:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+#main .content1 .box {
+    width: 1575px;
+    background-color: white;
+    margin: 15px auto;
+    border-left: 4PX solid teal;
+}
+
+#main .content1 .button3 {
+    background-color: teal;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border: none;
+    margin-left: 19px;
+    font-size: 18px;
+}
+
+#main .content1 .button3:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+#main .content2 {
+    width: 100%;
+    height: 470px;
+    float: left;
+    margin-top: 15px;
+    background-color: #f1f1f1;
+}
+
+#main .content2 h1 {
+    font-size: 56px;
+    font-weight: normal;
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+}
+
+#main .content2 .p1 {
+    font-size: 24px;
+    font-weight: normal;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#main .content2 .button1 {
+    background-color: teal;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-left: 19px;
+    font-size: 18px;
+}
+
+#main .content2 .button2 {
+    background-color: teal;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+}
+
+#main .content2 .button1:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+#main .content2 .button2:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+#main .content2 .box {
+    width: 1575px;
+    background-color: white;
+    margin: 15px auto;
+    border-left: 4PX solid teal;
+}
+
+#main .content2 .button3 {
+    background-color: teal;
+    color: white;
+    width: 200px;
+    height: 40px;
+    border: none;
+    margin-left: 19px;
+    font-size: 18px;
+}
+
+#main .content2 .button3:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+#main .content3 {
+    width: 100%;
+    height: 80px;
+    float: left;
+    margin-top: 15px;
+    background-color: #f1f1f1;
+}
+
+#main .content3 p{
+    padding-top: 15px;
+    padding-left: 25px;
+
+}
